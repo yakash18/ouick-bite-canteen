@@ -1,0 +1,860 @@
+{
+  "users": [
+    {
+      "user_id": "U100",
+      "name": "User 0",
+      "email": "user0@university.edu",
+      "role": "student",
+      "preferences": {
+        "diet": "vegetarian",
+        "spice_level": "low",
+        "allergies": [
+          "dairy",
+          "peanuts"
+        ]
+      },
+      "location": "Library",
+      "order_history": [
+        "O500",
+        "O501"
+      ],
+      "ratings": [
+        {
+          "order_id": "O500",
+          "food": 4,
+          "delivery": 4
+        }
+      ]
+    },
+    {
+      "user_id": "U101",
+      "name": "User 1",
+      "email": "user1@university.edu",
+      "role": "faculty",
+      "preferences": {
+        "diet": "vegetarian",
+        "spice_level": "low",
+        "allergies": [
+          "soy",
+          "peanuts"
+        ]
+      },
+      "location": "Dorm",
+      "order_history": [
+        "O501",
+        "O502"
+      ],
+      "ratings": [
+        {
+          "order_id": "O501",
+          "food": 4,
+          "delivery": 5
+        }
+      ]
+    },
+    {
+      "user_id": "U102",
+      "name": "User 2",
+      "email": "user2@university.edu",
+      "role": "student",
+      "preferences": {
+        "diet": "non-vegetarian",
+        "spice_level": "medium",
+        "allergies": []
+      },
+      "location": "Dorm",
+      "order_history": [
+        "O502",
+        "O503"
+      ],
+      "ratings": [
+        {
+          "order_id": "O502",
+          "food": 4,
+          "delivery": 4
+        }
+      ]
+    },
+    {
+      "user_id": "U103",
+      "name": "User 3",
+      "email": "user3@university.edu",
+      "role": "faculty",
+      "preferences": {
+        "diet": "gluten-free",
+        "spice_level": "low",
+        "allergies": [
+          "shellfish",
+          "nuts"
+        ]
+      },
+      "location": "Admin",
+      "order_history": [
+        "O503",
+        "O504"
+      ],
+      "ratings": [
+        {
+          "order_id": "O503",
+          "food": 3,
+          "delivery": 4
+        }
+      ]
+    },
+    {
+      "user_id": "U104",
+      "name": "User 4",
+      "email": "user4@university.edu",
+      "role": "student",
+      "preferences": {
+        "diet": "vegan",
+        "spice_level": "medium",
+        "allergies": []
+      },
+      "location": "Science Block",
+      "order_history": [
+        "O504",
+        "O505"
+      ],
+      "ratings": [
+        {
+          "order_id": "O504",
+          "food": 4,
+          "delivery": 4
+        }
+      ]
+    },
+    {
+      "user_id": "U105",
+      "name": "User 5",
+      "email": "user5@university.edu",
+      "role": "faculty",
+      "preferences": {
+        "diet": "vegetarian",
+        "spice_level": "high",
+        "allergies": [
+          "soy",
+          "dairy"
+        ]
+      },
+      "location": "Canteen",
+      "order_history": [
+        "O505",
+        "O506"
+      ],
+      "ratings": [
+        {
+          "order_id": "O505",
+          "food": 3,
+          "delivery": 3
+        }
+      ]
+    },
+    {
+      "user_id": "U106",
+      "name": "User 6",
+      "email": "user6@university.edu",
+      "role": "student",
+      "preferences": {
+        "diet": "vegan",
+        "spice_level": "low",
+        "allergies": [
+          "shellfish",
+          "peanuts"
+        ]
+      },
+      "location": "Library",
+      "order_history": [
+        "O506",
+        "O507"
+      ],
+      "ratings": [
+        {
+          "order_id": "O506",
+          "food": 5,
+          "delivery": 3
+        }
+      ]
+    },
+    {
+      "user_id": "U107",
+      "name": "User 7",
+      "email": "user7@university.edu",
+      "role": "faculty",
+      "preferences": {
+        "diet": "gluten-free",
+        "spice_level": "medium",
+        "allergies": [
+          "shellfish"
+        ]
+      },
+      "location": "Admin",
+      "order_history": [
+        "O507",
+        "O508"
+      ],
+      "ratings": [
+        {
+          "order_id": "O507",
+          "food": 5,
+          "delivery": 3
+        }
+      ]
+    },
+    {
+      "user_id": "U108",
+      "name": "User 8",
+      "email": "user8@university.edu",
+      "role": "student",
+      "preferences": {
+        "diet": "vegan",
+        "spice_level": "high",
+        "allergies": []
+      },
+      "location": "Canteen",
+      "order_history": [
+        "O508",
+        "O509"
+      ],
+      "ratings": [
+        {
+          "order_id": "O508",
+          "food": 3,
+          "delivery": 4
+        }
+      ]
+    },
+    {
+      "user_id": "U109",
+      "name": "User 9",
+      "email": "user9@university.edu",
+      "role": "faculty",
+      "preferences": {
+        "diet": "vegetarian",
+        "spice_level": "medium",
+        "allergies": [
+          "nuts",
+          "gluten"
+        ]
+      },
+      "location": "Admin",
+      "order_history": [
+        "O509",
+        "O5010"
+      ],
+      "ratings": [
+        {
+          "order_id": "O509",
+          "food": 3,
+          "delivery": 4
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "O500",
+      "user_id": "U100",
+      "items": [
+        {
+          "item_id": "M102",
+          "quantity": 3
+        }
+      ],
+      "total_price": 151,
+      "payment_status": "paid",
+      "delivery_status": "preparing",
+      "ordered_at": "2025-07-25T06:08:40.931016Z",
+      "delivered_at": "2025-07-25T06:38:40.931044Z",
+      "location": "Science Block"
+    },
+    {
+      "order_id": "O501",
+      "user_id": "U101",
+      "items": [
+        {
+          "item_id": "M103",
+          "quantity": 3
+        },
+        {
+          "item_id": "M101",
+          "quantity": 3
+        },
+        {
+          "item_id": "M102",
+          "quantity": 1
+        }
+      ],
+      "total_price": 149,
+      "payment_status": "paid",
+      "delivery_status": "out for delivery",
+      "ordered_at": "2025-07-25T06:13:40.931066Z",
+      "delivered_at": "2025-07-25T06:43:40.931072Z",
+      "location": "Library"
+    },
+    {
+      "order_id": "O502",
+      "user_id": "U102",
+      "items": [
+        {
+          "item_id": "M101",
+          "quantity": 1
+        },
+        {
+          "item_id": "M101",
+          "quantity": 1
+        },
+        {
+          "item_id": "M105",
+          "quantity": 2
+        }
+      ],
+      "total_price": 200,
+      "payment_status": "paid",
+      "delivery_status": "delivered",
+      "ordered_at": "2025-07-25T06:18:40.931095Z",
+      "delivered_at": "2025-07-25T06:48:40.931100Z",
+      "location": "Science Block"
+    },
+    {
+      "order_id": "O503",
+      "user_id": "U103",
+      "items": [
+        {
+          "item_id": "M105",
+          "quantity": 1
+        },
+        {
+          "item_id": "M102",
+          "quantity": 3
+        }
+      ],
+      "total_price": 242,
+      "payment_status": "paid",
+      "delivery_status": "out for delivery",
+      "ordered_at": "2025-07-25T06:23:40.931109Z",
+      "delivered_at": "2025-07-25T06:53:40.931114Z",
+      "location": "Science Block"
+    },
+    {
+      "order_id": "O504",
+      "user_id": "U104",
+      "items": [
+        {
+          "item_id": "M103",
+          "quantity": 2
+        },
+        {
+          "item_id": "M102",
+          "quantity": 2
+        },
+        {
+          "item_id": "M102",
+          "quantity": 2
+        }
+      ],
+      "total_price": 179,
+      "payment_status": "paid",
+      "delivery_status": "preparing",
+      "ordered_at": "2025-07-25T06:28:40.931125Z",
+      "delivered_at": "2025-07-25T06:58:40.931128Z",
+      "location": "Library"
+    },
+    {
+      "order_id": "O505",
+      "user_id": "U105",
+      "items": [
+        {
+          "item_id": "M105",
+          "quantity": 3
+        }
+      ],
+      "total_price": 260,
+      "payment_status": "paid",
+      "delivery_status": "preparing",
+      "ordered_at": "2025-07-25T06:33:40.931137Z",
+      "delivered_at": "2025-07-25T07:03:40.931140Z",
+      "location": "Library"
+    },
+    {
+      "order_id": "O506",
+      "user_id": "U106",
+      "items": [
+        {
+          "item_id": "M103",
+          "quantity": 3
+        },
+        {
+          "item_id": "M102",
+          "quantity": 3
+        }
+      ],
+      "total_price": 250,
+      "payment_status": "paid",
+      "delivery_status": "delivered",
+      "ordered_at": "2025-07-25T06:38:40.931150Z",
+      "delivered_at": "2025-07-25T07:08:40.931153Z",
+      "location": "Science Block"
+    },
+    {
+      "order_id": "O507",
+      "user_id": "U107",
+      "items": [
+        {
+          "item_id": "M101",
+          "quantity": 2
+        }
+      ],
+      "total_price": 270,
+      "payment_status": "paid",
+      "delivery_status": "preparing",
+      "ordered_at": "2025-07-25T06:43:40.931163Z",
+      "delivered_at": "2025-07-25T07:13:40.931167Z",
+      "location": "Library"
+    },
+    {
+      "order_id": "O508",
+      "user_id": "U108",
+      "items": [
+        {
+          "item_id": "M102",
+          "quantity": 3
+        },
+        {
+          "item_id": "M101",
+          "quantity": 1
+        }
+      ],
+      "total_price": 202,
+      "payment_status": "paid",
+      "delivery_status": "out for delivery",
+      "ordered_at": "2025-07-25T06:48:40.931176Z",
+      "delivered_at": "2025-07-25T07:18:40.931294Z",
+      "location": "Library"
+    },
+    {
+      "order_id": "O509",
+      "user_id": "U109",
+      "items": [
+        {
+          "item_id": "M101",
+          "quantity": 2
+        },
+        {
+          "item_id": "M103",
+          "quantity": 3
+        },
+        {
+          "item_id": "M102",
+          "quantity": 1
+        }
+      ],
+      "total_price": 286,
+      "payment_status": "paid",
+      "delivery_status": "out for delivery",
+      "ordered_at": "2025-07-25T06:53:40.931321Z",
+      "delivered_at": "2025-07-25T07:23:40.931325Z",
+      "location": "Canteen"
+    }
+  ],
+  "menu_items": [
+    {
+      "item_id": "M100",
+      "name": "Item 0",
+      "description": "Delicious food item 0",
+      "price": 65,
+      "category": "snack",
+      "diet_type": "vegan",
+      "nutrition": {
+        "calories": 447
+      },
+      "allergens": [],
+      "availability": true
+    },
+    {
+      "item_id": "M101",
+      "name": "Item 1",
+      "description": "Delicious food item 1",
+      "price": 54,
+      "category": "rice",
+      "diet_type": "vegetarian",
+      "nutrition": {
+        "calories": 364
+      },
+      "allergens": [
+        "nuts"
+      ],
+      "availability": true
+    },
+    {
+      "item_id": "M102",
+      "name": "Item 2",
+      "description": "Delicious food item 2",
+      "price": 94,
+      "category": "snack",
+      "diet_type": "vegetarian",
+      "nutrition": {
+        "calories": 181
+      },
+      "allergens": [
+        "nuts",
+        "gluten"
+      ],
+      "availability": true
+    },
+    {
+      "item_id": "M103",
+      "name": "Item 3",
+      "description": "Delicious food item 3",
+      "price": 69,
+      "category": "main course",
+      "diet_type": "non-vegetarian",
+      "nutrition": {
+        "calories": 376
+      },
+      "allergens": [
+        "nuts"
+      ],
+      "availability": true
+    },
+    {
+      "item_id": "M104",
+      "name": "Item 4",
+      "description": "Delicious food item 4",
+      "price": 42,
+      "category": "dessert",
+      "diet_type": "vegan",
+      "nutrition": {
+        "calories": 267
+      },
+      "allergens": [],
+      "availability": true
+    },
+    {
+      "item_id": "M105",
+      "name": "Item 5",
+      "description": "Delicious food item 5",
+      "price": 68,
+      "category": "snack",
+      "diet_type": "vegetarian",
+      "nutrition": {
+        "calories": 286
+      },
+      "allergens": [
+        "nuts",
+        "gluten"
+      ],
+      "availability": true
+    },
+    {
+      "item_id": "M106",
+      "name": "Item 6",
+      "description": "Delicious food item 6",
+      "price": 51,
+      "category": "rice",
+      "diet_type": "vegan",
+      "nutrition": {
+        "calories": 309
+      },
+      "allergens": [],
+      "availability": true
+    },
+    {
+      "item_id": "M107",
+      "name": "Item 7",
+      "description": "Delicious food item 7",
+      "price": 32,
+      "category": "main course",
+      "diet_type": "non-vegetarian",
+      "nutrition": {
+        "calories": 367
+      },
+      "allergens": [],
+      "availability": true
+    },
+    {
+      "item_id": "M108",
+      "name": "Item 8",
+      "description": "Delicious food item 8",
+      "price": 45,
+      "category": "rice",
+      "diet_type": "non-vegetarian",
+      "nutrition": {
+        "calories": 255
+      },
+      "allergens": [
+        "dairy"
+      ],
+      "availability": true
+    },
+    {
+      "item_id": "M109",
+      "name": "Item 9",
+      "description": "Delicious food item 9",
+      "price": 69,
+      "category": "rice",
+      "diet_type": "vegetarian",
+      "nutrition": {
+        "calories": 214
+      },
+      "allergens": [],
+      "availability": true
+    }
+  ],
+  "inventory": [
+    {
+      "ingredient_id": "I100",
+      "name": "Ingredient 0",
+      "quantity": 42,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931689Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I101",
+      "name": "Ingredient 1",
+      "quantity": 9,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931700Z",
+      "low_stock_threshold": 4
+    },
+    {
+      "ingredient_id": "I102",
+      "name": "Ingredient 2",
+      "quantity": 41,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931705Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I103",
+      "name": "Ingredient 3",
+      "quantity": 33,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931710Z",
+      "low_stock_threshold": 8
+    },
+    {
+      "ingredient_id": "I104",
+      "name": "Ingredient 4",
+      "quantity": 30,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931715Z",
+      "low_stock_threshold": 9
+    },
+    {
+      "ingredient_id": "I105",
+      "name": "Ingredient 5",
+      "quantity": 28,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931720Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I106",
+      "name": "Ingredient 6",
+      "quantity": 31,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931724Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I107",
+      "name": "Ingredient 7",
+      "quantity": 24,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931730Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I108",
+      "name": "Ingredient 8",
+      "quantity": 32,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931735Z",
+      "low_stock_threshold": 2
+    },
+    {
+      "ingredient_id": "I109",
+      "name": "Ingredient 9",
+      "quantity": 22,
+      "unit": "kg",
+      "last_updated": "2025-07-25T06:08:40.931740Z",
+      "low_stock_threshold": 2
+    }
+  ],
+  "feedback": [
+    {
+      "feedback_id": "F700",
+      "user_id": "U100",
+      "order_id": "O500",
+      "food_rating": 4,
+      "delivery_rating": 3,
+      "comment": "Feedback comment 0",
+      "timestamp": "2025-07-25T06:08:40.931852Z"
+    },
+    {
+      "feedback_id": "F701",
+      "user_id": "U101",
+      "order_id": "O501",
+      "food_rating": 4,
+      "delivery_rating": 5,
+      "comment": "Feedback comment 1",
+      "timestamp": "2025-07-25T06:18:40.931861Z"
+    },
+    {
+      "feedback_id": "F702",
+      "user_id": "U102",
+      "order_id": "O502",
+      "food_rating": 3,
+      "delivery_rating": 4,
+      "comment": "Feedback comment 2",
+      "timestamp": "2025-07-25T06:28:40.931866Z"
+    },
+    {
+      "feedback_id": "F703",
+      "user_id": "U103",
+      "order_id": "O503",
+      "food_rating": 3,
+      "delivery_rating": 5,
+      "comment": "Feedback comment 3",
+      "timestamp": "2025-07-25T06:38:40.931872Z"
+    },
+    {
+      "feedback_id": "F704",
+      "user_id": "U104",
+      "order_id": "O504",
+      "food_rating": 3,
+      "delivery_rating": 5,
+      "comment": "Feedback comment 4",
+      "timestamp": "2025-07-25T06:48:40.931878Z"
+    },
+    {
+      "feedback_id": "F705",
+      "user_id": "U105",
+      "order_id": "O505",
+      "food_rating": 3,
+      "delivery_rating": 3,
+      "comment": "Feedback comment 5",
+      "timestamp": "2025-07-25T06:58:40.931884Z"
+    },
+    {
+      "feedback_id": "F706",
+      "user_id": "U106",
+      "order_id": "O506",
+      "food_rating": 4,
+      "delivery_rating": 4,
+      "comment": "Feedback comment 6",
+      "timestamp": "2025-07-25T07:08:40.931890Z"
+    },
+    {
+      "feedback_id": "F707",
+      "user_id": "U107",
+      "order_id": "O507",
+      "food_rating": 4,
+      "delivery_rating": 5,
+      "comment": "Feedback comment 7",
+      "timestamp": "2025-07-25T07:18:40.931896Z"
+    },
+    {
+      "feedback_id": "F708",
+      "user_id": "U108",
+      "order_id": "O508",
+      "food_rating": 4,
+      "delivery_rating": 3,
+      "comment": "Feedback comment 8",
+      "timestamp": "2025-07-25T07:28:40.931901Z"
+    },
+    {
+      "feedback_id": "F709",
+      "user_id": "U109",
+      "order_id": "O509",
+      "food_rating": 3,
+      "delivery_rating": 5,
+      "comment": "Feedback comment 9",
+      "timestamp": "2025-07-25T07:38:40.931906Z"
+    }
+  ],
+  "notifications": [
+    {
+      "notification_id": "N300",
+      "title": "Notification 0",
+      "message": "This is message 0 for users.",
+      "valid_till": "2025-07-31T06:08:40.932035Z",
+      "audience": "faculty",
+      "type": "alert"
+    },
+    {
+      "notification_id": "N301",
+      "title": "Notification 1",
+      "message": "This is message 1 for users.",
+      "valid_till": "2025-07-31T06:08:40.932044Z",
+      "audience": "all",
+      "type": "alert"
+    },
+    {
+      "notification_id": "N302",
+      "title": "Notification 2",
+      "message": "This is message 2 for users.",
+      "valid_till": "2025-07-31T06:08:40.932048Z",
+      "audience": "faculty",
+      "type": "alert"
+    },
+    {
+      "notification_id": "N303",
+      "title": "Notification 3",
+      "message": "This is message 3 for users.",
+      "valid_till": "2025-07-31T06:08:40.932053Z",
+      "audience": "faculty",
+      "type": "alert"
+    },
+    {
+      "notification_id": "N304",
+      "title": "Notification 4",
+      "message": "This is message 4 for users.",
+      "valid_till": "2025-07-31T06:08:40.932058Z",
+      "audience": "students",
+      "type": "discount"
+    },
+    {
+      "notification_id": "N305",
+      "title": "Notification 5",
+      "message": "This is message 5 for users.",
+      "valid_till": "2025-07-31T06:08:40.932063Z",
+      "audience": "all",
+      "type": "info"
+    },
+    {
+      "notification_id": "N306",
+      "title": "Notification 6",
+      "message": "This is message 6 for users.",
+      "valid_till": "2025-07-31T06:08:40.932068Z",
+      "audience": "faculty",
+      "type": "alert"
+    },
+    {
+      "notification_id": "N307",
+      "title": "Notification 7",
+      "message": "This is message 7 for users.",
+      "valid_till": "2025-07-31T06:08:40.932073Z",
+      "audience": "all",
+      "type": "discount"
+    },
+    {
+      "notification_id": "N308",
+      "title": "Notification 8",
+      "message": "This is message 8 for users.",
+      "valid_till": "2025-07-31T06:08:40.932078Z",
+      "audience": "all",
+      "type": "info"
+    },
+    {
+      "notification_id": "N309",
+      "title": "Notification 9",
+      "message": "This is message 9 for users.",
+      "valid_till": "2025-07-31T06:08:40.932083Z",
+      "audience": "all",
+      "type": "discount"
+    }
+  ]
+}

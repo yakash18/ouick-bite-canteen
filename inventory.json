@@ -1,0 +1,82 @@
+[
+  {
+    "ingredient_id": "I100",
+    "name": "Ingredient 0",
+    "quantity": 42,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931689Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I101",
+    "name": "Ingredient 1",
+    "quantity": 9,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931700Z",
+    "low_stock_threshold": 4
+  },
+  {
+    "ingredient_id": "I102",
+    "name": "Ingredient 2",
+    "quantity": 41,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931705Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I103",
+    "name": "Ingredient 3",
+    "quantity": 33,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931710Z",
+    "low_stock_threshold": 8
+  },
+  {
+    "ingredient_id": "I104",
+    "name": "Ingredient 4",
+    "quantity": 30,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931715Z",
+    "low_stock_threshold": 9
+  },
+  {
+    "ingredient_id": "I105",
+    "name": "Ingredient 5",
+    "quantity": 28,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931720Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I106",
+    "name": "Ingredient 6",
+    "quantity": 31,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931724Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I107",
+    "name": "Ingredient 7",
+    "quantity": 24,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931730Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I108",
+    "name": "Ingredient 8",
+    "quantity": 32,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931735Z",
+    "low_stock_threshold": 2
+  },
+  {
+    "ingredient_id": "I109",
+    "name": "Ingredient 9",
+    "quantity": 22,
+    "unit": "kg",
+    "last_updated": "2025-07-25T06:08:40.931740Z",
+    "low_stock_threshold": 2
+  }
+]

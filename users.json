@@ -1,0 +1,252 @@
+[
+  {
+    "user_id": "U100",
+    "name": "User 0",
+    "email": "user0@university.edu",
+    "role": "student",
+    "preferences": {
+      "diet": "vegetarian",
+      "spice_level": "low",
+      "allergies": [
+        "dairy",
+        "peanuts"
+      ]
+    },
+    "location": "Library",
+    "order_history": [
+      "O500",
+      "O501"
+    ],
+    "ratings": [
+      {
+        "order_id": "O500",
+        "food": 4,
+        "delivery": 4
+      }
+    ]
+  },
+  {
+    "user_id": "U101",
+    "name": "User 1",
+    "email": "user1@university.edu",
+    "role": "faculty",
+    "preferences": {
+      "diet": "vegetarian",
+      "spice_level": "low",
+      "allergies": [
+        "soy",
+        "peanuts"
+      ]
+    },
+    "location": "Dorm",
+    "order_history": [
+      "O501",
+      "O502"
+    ],
+    "ratings": [
+      {
+        "order_id": "O501",
+        "food": 4,
+        "delivery": 5
+      }
+    ]
+  },
+  {
+    "user_id": "U102",
+    "name": "User 2",
+    "email": "user2@university.edu",
+    "role": "student",
+    "preferences": {
+      "diet": "non-vegetarian",
+      "spice_level": "medium",
+      "allergies": []
+    },
+    "location": "Dorm",
+    "order_history": [
+      "O502",
+      "O503"
+    ],
+    "ratings": [
+      {
+        "order_id": "O502",
+        "food": 4,
+        "delivery": 4
+      }
+    ]
+  },
+  {
+    "user_id": "U103",
+    "name": "User 3",
+    "email": "user3@university.edu",
+    "role": "faculty",
+    "preferences": {
+      "diet": "gluten-free",
+      "spice_level": "low",
+      "allergies": [
+        "shellfish",
+        "nuts"
+      ]
+    },
+    "location": "Admin",
+    "order_history": [
+      "O503",
+      "O504"
+    ],
+    "ratings": [
+      {
+        "order_id": "O503",
+        "food": 3,
+        "delivery": 4
+      }
+    ]
+  },
+  {
+    "user_id": "U104",
+    "name": "User 4",
+    "email": "user4@university.edu",
+    "role": "student",
+    "preferences": {
+      "diet": "vegan",
+      "spice_level": "medium",
+      "allergies": []
+    },
+    "location": "Science Block",
+    "order_history": [
+      "O504",
+      "O505"
+    ],
+    "ratings": [
+      {
+        "order_id": "O504",
+        "food": 4,
+        "delivery": 4
+      }
+    ]
+  },
+  {
+    "user_id": "U105",
+    "name": "User 5",
+    "email": "user5@university.edu",
+    "role": "faculty",
+    "preferences": {
+      "diet": "vegetarian",
+      "spice_level": "high",
+      "allergies": [
+        "soy",
+        "dairy"
+      ]
+    },
+    "location": "Canteen",
+    "order_history": [
+      "O505",
+      "O506"
+    ],
+    "ratings": [
+      {
+        "order_id": "O505",
+        "food": 3,
+        "delivery": 3
+      }
+    ]
+  },
+  {
+    "user_id": "U106",
+    "name": "User 6",
+    "email": "user6@university.edu",
+    "role": "student",
+    "preferences": {
+      "diet": "vegan",
+      "spice_level": "low",
+      "allergies": [
+        "shellfish",
+        "peanuts"
+      ]
+    },
+    "location": "Library",
+    "order_history": [
+      "O506",
+      "O507"
+    ],
+    "ratings": [
+      {
+        "order_id": "O506",
+        "food": 5,
+        "delivery": 3
+      }
+    ]
+  },
+  {
+    "user_id": "U107",
+    "name": "User 7",
+    "email": "user7@university.edu",
+    "role": "faculty",
+    "preferences": {
+      "diet": "gluten-free",
+      "spice_level": "medium",
+      "allergies": [
+        "shellfish"
+      ]
+    },
+    "location": "Admin",
+    "order_history": [
+      "O507",
+      "O508"
+    ],
+    "ratings": [
+      {
+        "order_id": "O507",
+        "food": 5,
+        "delivery": 3
+      }
+    ]
+  },
+  {
+    "user_id": "U108",
+    "name": "User 8",
+    "email": "user8@university.edu",
+    "role": "student",
+    "preferences": {
+      "diet": "vegan",
+      "spice_level": "high",
+      "allergies": []
+    },
+    "location": "Canteen",
+    "order_history": [
+      "O508",
+      "O509"
+    ],
+    "ratings": [
+      {
+        "order_id": "O508",
+        "food": 3,
+        "delivery": 4
+      }
+    ]
+  },
+  {
+    "user_id": "U109",
+    "name": "User 9",
+    "email": "user9@university.edu",
+    "role": "faculty",
+    "preferences": {
+      "diet": "vegetarian",
+      "spice_level": "medium",
+      "allergies": [
+        "nuts",
+        "gluten"
+      ]
+    },
+    "location": "Admin",
+    "order_history": [
+      "O509",
+      "O5010"
+    ],
+    "ratings": [
+      {
+        "order_id": "O509",
+        "food": 3,
+        "delivery": 4
+      }
+    ]
+  }
+]
